@@ -10,4 +10,7 @@ public class ESApplication {
     public static void main(String[] args) {
         SpringApplication.run(ESApplication.class,args);
     }
+	public void text(){
+	System.out.println("张三的电脑")
+	}
 }
