@@ -15,4 +15,6 @@ public interface GoodsRepository extends ElasticsearchRepository<Goods,String> {
     List<Goods> findByBrandAndPriceBetween(String brand, double v, double v1);
 
     List<Goods> findByBrandOrPriceBetween(String brand, double v, double v1);
+	
+	aaaaaaaaaaaaa
 }
